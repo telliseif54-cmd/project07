@@ -3,11 +3,9 @@
 Last updated: 2026-08-19
 
 ## Current status
-**Stage:** 0 — repository foundation and project definition.
+**Stage:** 1 — official source capture and project definition.
 
-The repository was inspected before this memory layer was added. The only pre-existing file was `README.md`, containing the 2026 thematic research-project call/reference material.
-
-No application source code, tests, package manifest, CI workflow, deployment configuration, or formal product specification has been identified yet.
+The repository has now been grounded against the official ATRSSH 2026 thematic research-project call and its live application form. The canonical extraction is stored in `docs/ATRSSH_2026_OFFICIAL_REFERENCE.md`.
 
 ## Completed
 - Confirmed repository identity and default branch.
@@ -16,15 +14,20 @@ No application source code, tests, package manifest, CI workflow, deployment con
 - Added canonical project context in `AI_MEMORY.md`.
 - Added this live project-state file.
 - Added a decision log and change log.
+- Added AI calibration and correction logging.
+- Verified the official ATRSSH 2026 call page.
+- Verified the live ATRSSH application form.
+- Documented the call purpose, research orientation, selection criteria, funding rules, calendar, contact details, and application fields.
+- Explicitly recorded that the detailed attached thematic-axis/sub-axis list remains unverified from the retrieved web content and must not be invented.
 
 ## Current objective
-Turn this repository into a self-describing project workspace whose documentation is sufficient for another AI to take over safely and continue development without access to previous conversation history.
+Build a self-describing Project 07 workspace that can preserve authoritative ATRSSH 2026 requirements and, once the user defines the intended product, support safe development without relying on prior chat history.
 
 ## Pending definition work
-The next substantive step is to define the actual intended project/product behind `project07`.
+The exact product/software/workflow to build around the ATRSSH reference material is still not explicitly defined.
 
-Minimum information still needed from repository evidence or the user:
-- project name/title;
+Minimum information still needed before substantive implementation:
+- project/product name;
 - problem being solved;
 - target users;
 - desired deliverables;
@@ -36,12 +39,18 @@ Minimum information still needed from repository evidence or the user:
 - constraints and exclusions.
 
 ## Unknowns / hypotheses
-- It is unknown whether the ATRSSH call is the core purpose of the project or merely reference material.
-- There is currently no evidence of a chosen programming language or application framework.
-- There is currently no evidence of a database, API, frontend, backend, mobile app, or deployment environment.
+- The detailed attached list of ATRSSH research axes and sub-axes was not exposed as readable content during the 19 August 2026 verification.
+- It is not yet established whether Project 07 will be a research-application workspace, a software assistant, a proposal package, or another product.
+- There is no evidence yet of a chosen programming language, framework, database, API, frontend/backend architecture, or deployment environment.
+
+## Source of truth
+- Detailed ATRSSH official reference: `docs/ATRSSH_2026_OFFICIAL_REFERENCE.md`
+- Current project reality: this file
+- Long-term project context: `AI_MEMORY.md`
+- AI behavior/calibration: `AGENTS.md`, `AI_CALIBRATION.md`, `CORRECTIONS.md`
 
 ## Next recommended action
-Create a formal project specification once the intended product is known. Put it in `docs/SPEC.md`, then derive an implementation roadmap in `docs/ROADMAP.md` and update this state file.
+Define the intended Project 07 product. After that, create `docs/SPEC.md` and derive implementation requirements directly from the verified ATRSSH reference, keeping unsupported assumptions clearly marked.
 
 ## Handoff snapshot
-A new AI should NOT start by rewriting the README or inventing an implementation. Start by reading the memory files, inspecting the tree, and resolving the project-definition gap above.
+A new AI should read `AGENTS.md`, `AI_CALIBRATION.md`, `CORRECTIONS.md`, `AI_MEMORY.md`, this file, and `docs/ATRSSH_2026_OFFICIAL_REFERENCE.md` before modifying the project. Do not invent ATRSSH axes/sub-axes or product requirements that are not supported by repository evidence or an explicit user decision.
